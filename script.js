@@ -73,7 +73,7 @@ function renderCanvas() {
 // Ball
 context.beginPath();
 context.arc(ballX, ballY, ballRadius, 2 * Math.PI, false);
-context.fillStyle = 'white';
+context.fillStyle = 'purple';
 context.fill();
 
 // Score
